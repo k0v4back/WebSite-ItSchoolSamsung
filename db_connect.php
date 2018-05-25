@@ -8,7 +8,7 @@ include(ROOT.'/components/Db.php');
 //3.Установка соединения с БД
 include ROOT.'/views/db/rb/rb.php';
 
-R::setup('mysql:host=localhost;dbname=u0506979_default', 'u0506979_default', '_n5dLImF');
+R::setup('mysql:host=localhost;dbname=****', '****',', '****');
 if(!R::testConnection()){
     echo 'Нет соединиения';
     die();
